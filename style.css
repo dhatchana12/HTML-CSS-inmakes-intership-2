@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2022/06/best-4k-laptops.jpg);
+    background-position:inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.login-iteams{
+    background-color: #17202A;
+    padding: 30px;
+    border-radius: 15px;
+}
+.icon-image{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 90px;
+}
+#i{
+    margin-left: 23px; 
+    margin-top: 18px;
+    position: absolute;
+    font-size: 60px;
+}
+.icon{
+    margin-top: 50px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 35px;
+}
+#icon-two{
+    font-size: larger;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.head-one{
+    color: blueviolet;
+    font-family: "poppins";
+    font-size: larger;
+    font-weight: 500;
+}
+.head-two{
+    color: white;
+    font-family: "poppins";
+    font-size: larger;
+    font-weight: 400;
+}
+.input-items{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    border: none;
+    outline: none;
+    width: 250px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-family: "poppins";
+    font-size: medium;
+    color: gainsboro;
+}
+.box{
+    display: flex;
+}
+.head-three{
+    color: white;
+    font-family: "poppins";
+    font-size: medium;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.btn{
+    border:2px solid white;
+    width: 280px;
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+    border-radius: 25px;
+    font-family: "poppins";
+    font-size: medium;
+    font-weight: 400;
+}
+.head-four{
+    text-align: center;
+    color: white;
+    font-family: "poppins";
+    font-size: medium;
+    font-weight: 400;
+}
